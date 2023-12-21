@@ -37,7 +37,7 @@
 <h3 align="center">Skills: Programming with Advanced Computer Languages</h3>
 
   <p align="center">
-    project_description
+    Stock Analysis and Portfolio Comparison Tool
     <br />
     <a href="https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages"><strong>Explore the docs »</strong></a>
     <br />
@@ -81,9 +81,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Overview
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+This Python tool provides functionalities for analyzing stock performance, creating and comparing investment portfolios, and performing descriptive statistics analysis on major technology companies and the NASDAQ index.
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `LH5399`, `Skills-Programming-with-Advanced-Computer-Languages`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
@@ -107,7 +109,52 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Usage
+The program consists of four main functions:
+
+1. Import CSV
+Allows users to import stock data from a CSV file.
+
+2. Plot Stock Performance
+Enables users to compare the stock performance of selected technology companies.
+
+3. Create and Compare Portfolio
+Users can create a virtual portfolio and compare its performance against the NASDAQ index.
+
+4. Descriptive Statistics Analysis
+Perform statistical analysis on selected stocks, including calculating volatility, correlation with NASDAQ, and annualized returns.
+
+## Starting the Programm
+Run the program with the following command:
+
+```sh
+python stock_analysis.py
+```
+Follow the prompts in the interactive interface to import data and choose the desired analysis function.
+
+## How it works
+
+### Setup
+* Data Import (import_csv): Prompts the user to input the path to the CSV data file, loads the data, and sets up the mapping of company names to ticker symbols.
+Functions
+1. Plot Stock Performance (plot_stock_performance):
+
+* Users select companies and specify time frames for analysis.
+* Offers options to plot data on a logarithmic or relative scale.
+* Includes an option to benchmark against the NASDAQ index.
+
+2. Create and Compare Portfolio (create_and_compare_portfolio):
+
+* Users create a virtual investment portfolio by selecting companies and allocating percentages.
+* Compares the portfolio's performance to the NASDAQ index over the specified period.
+
+3. Descriptive Statistics Analysis (descriptive_statistics_analysis):
+
+* Performs statistical analysis on user-selected stocks.
+* Calculates key metrics like highest/lowest prices, volatility, and correlation with NASDAQ.
+
+
+Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -154,41 +201,18 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Python code
+    - [ ] Stock performance
+    - [ ] Portfolio
+    - [ ] Descriptive Statistics 
+- [ ] Readme
 
-See the [open issues](https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages/issues) for a full list of proposed features (and known issues).
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
