@@ -195,7 +195,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Leopold Huberth - leopold.huberth@student.unisg.ch
+
+Dominik De Marco - dominik.demarco@student.unisg.ch
 
 Project Link: [https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages](https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages)
 
