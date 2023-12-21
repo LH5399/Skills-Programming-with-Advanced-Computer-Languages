@@ -50,11 +50,10 @@
 <!-- ABOUT THE PROJECT -->
 ## Overview
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This Python tool provides functionalities for analyzing stock performance, creating and comparing investment portfolios, and performing descriptive statistics analysis on major technology companies and the NASDAQ index.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `LH5399`, `Skills-Programming-with-Advanced-Computer-Languages`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This Python tool provides comprehensive functionalities for analyzing stock performance, creating, and comparing investment portfolios, and performing descriptive statistics analysis. It focuses on major technology companies and includes functionalities for comparing with the NASDAQ index.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,10 +64,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 <!-- GETTING STARTED -->
-## Usage
+## Features
 The program consists of four main functions:
 
-1. Import CSV
+1. Data Import
 Allows users to import stock data from a CSV file.
 
 2. Plot Stock Performance
@@ -80,6 +79,20 @@ Users can create a virtual portfolio and compare its performance against the NAS
 4. Descriptive Statistics Analysis
 Perform statistical analysis on selected stocks, including calculating volatility, correlation with NASDAQ, and annualized returns.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Installation
+To run this program, ensure you have Python installed along with the following libraries:
+
+pandas
+matplotlib
+numpy
+Use the following command to install these libraries:
+
+Copy code
+pip install pandas matplotlib numpy
+
+
 ## Starting the Programm
 Run the program with the following command:
 
@@ -88,11 +101,14 @@ python stock_analysis.py
 ```
 Follow the prompts in the interactive interface to import data and choose the desired analysis function.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## How it works
 
 ### Setup
 * Data Import (import_csv): Prompts the user to input the path to the CSV data file, loads the data, and sets up the mapping of company names to ticker symbols.
-Functions
+
+### Functions
 1. Plot Stock Performance (plot_stock_performance):
 
 * Users select companies and specify time frames for analysis.
@@ -109,49 +125,14 @@ Functions
 * Performs statistical analysis on user-selected stocks.
 * Calculates key metrics like highest/lowest prices, volatility, and correlation with NASDAQ.
 
+### User Interface
+User Interface 
+* The main function serves as the entry point, offering a menu to choose among the different functionalities.
+* Users can opt to compare stock performance, create a portfolio, analyze descriptive statistics, or exit the program.
 
-Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
@@ -187,7 +168,7 @@ Project Link: [https://github.com/LH5399/Skills-Programming-with-Advanced-Comput
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
