@@ -23,7 +23,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield1]][linkedin-url1]
 
 
 
@@ -232,7 +232,9 @@ Project Link: [https://github.com/LH5399/Skills-Programming-with-Advanced-Comput
 [issues-url]: https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages/issues
 [license-shield]: https://img.shields.io/github/license/LH5399/Skills-Programming-with-Advanced-Computer-Languages.svg?style=for-the-badge
 [license-url]: https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-shield1]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url1]: https://www.linkedin.com/in/l-huberth
+[linkedin-shield2]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url2]: https://www.linkedin.com/in/dominik-de-marco/
 [product-screenshot]: images/screenshot.png
 
