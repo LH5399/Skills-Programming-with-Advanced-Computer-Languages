@@ -13,12 +13,7 @@
 <h3 align="center">Skills: Programming with Advanced Computer Languages</h3>
 
   <p align="center">
-    Stock Analysis and Portfolio Comparison Tool
-    <br />
-    <a href="https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/LH5399/Skills-Programming-with-Advanced-Computer-Languages">View Demo</a>
+    Stock Analysis and Portfolio Comparison Tool with 3 functions for the Big Five Dataset
   </p>
 </div>
 
