@@ -1,7 +1,4 @@
-
 <a name="readme-top"></a>
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -17,17 +14,34 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#Overview">Overview</a>
+    </li>
+    <li>
+      <a href="#Features">Features</a>
+    </li>
+    <li>
+      <a href="#Installation">Installation</a>
+    </li>
+    <li>
+      <a href="#Starting the Programm">Starting the Programm</a>
+    </li>
+    <li>
+      <a href="#How it works">How it works</a>
+    </li>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Setup">Setup</a></li>
       </ul>
+      <ul>
+          <li><a href="#Functions">Functions</a></li>
+        </ul>
+      <ul>
+          <li><a href="#User Interface">User Interface</a></li>
+        </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -36,32 +50,18 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## Overview
-
-
 
 This Python tool provides comprehensive functionalities for analyzing stock performance, creating, and comparing investment portfolios, and performing descriptive statistics analysis. It focuses on major technology companies and includes functionalities for comparing with the NASDAQ index.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
 
 <!-- GETTING STARTED -->
 ## Features
@@ -84,14 +84,16 @@ Perform statistical analysis on selected stocks, including calculating volatilit
 ## Installation
 To run this program, ensure you have Python installed along with the following libraries:
 
-pandas
-matplotlib
-numpy
+* pandas
+* matplotlib
+* numpy
 Use the following command to install these libraries:
 
-Copy code
+```sh
 pip install pandas matplotlib numpy
+```
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Starting the Programm
 Run the program with the following command:
@@ -124,9 +126,8 @@ Follow the prompts in the interactive interface to import data and choose the de
 
 * Performs statistical analysis on user-selected stocks.
 * Calculates key metrics like highest/lowest prices, volatility, and correlation with NASDAQ.
-
+<!-- User Interface -->
 ### User Interface
-User Interface 
 * The main function serves as the entry point, offering a menu to choose among the different functionalities.
 * Users can opt to compare stock performance, create a portfolio, analyze descriptive statistics, or exit the program.
 
