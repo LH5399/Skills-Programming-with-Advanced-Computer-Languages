@@ -67,16 +67,20 @@ This Python tool provides comprehensive functionalities for analyzing stock perf
 ## Features
 The program consists of four main functions:
 
-1. Data Import
+### 1. Data Import
+
 Allows users to import stock data from a CSV file.
 
-2. Plot Stock Performance
+### 2. Plot Stock Performance
+
 Enables users to compare the stock performance of selected technology companies.
 
-3. Create and Compare Portfolio
+### 3. Create and Compare Portfolio
+
 Users can create a virtual portfolio and compare its performance against the NASDAQ index.
 
-4. Descriptive Statistics Analysis
+### 4. Descriptive Statistics Analysis
+
 Perform statistical analysis on selected stocks, including calculating volatility, correlation with NASDAQ, and annualized returns.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -87,10 +91,13 @@ To run this program, ensure you have Python installed along with the following l
 * pandas
 * matplotlib
 * numpy
-Use the following command to install these libraries:
+* os
+
+
+If necessary, use the following command to install these libraries:
 
 ```sh
-pip install pandas matplotlib numpy
+pip install pandas matplotlib numpy os
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,21 +115,21 @@ Follow the prompts in the interactive interface to import data and choose the de
 ## How it works
 
 ### Setup
-* Data Import (import_csv): Prompts the user to input the path to the CSV data file, loads the data, and sets up the mapping of company names to ticker symbols.
+* Data Import (`import_csv`): Prompts the user to input the path to the CSV data file, loads the data, and sets up the mapping of company names to ticker symbols.
 
 ### Functions
-1. Plot Stock Performance (plot_stock_performance):
+1. Plot Stock Performance (`plot_stock_performance`):
 
 * Users select companies and specify time frames for analysis.
 * Offers options to plot data on a logarithmic or relative scale.
 * Includes an option to benchmark against the NASDAQ index.
 
-2. Create and Compare Portfolio (create_and_compare_portfolio):
+2. Create and Compare Portfolio (`create_and_compare_portfolio`):
 
 * Users create a virtual investment portfolio by selecting companies and allocating percentages.
 * Compares the portfolio's performance to the NASDAQ index over the specified period.
 
-3. Descriptive Statistics Analysis (descriptive_statistics_analysis):
+3. Descriptive Statistics Analysis (`descriptive_statistics_analysis`):
 
 * Performs statistical analysis on user-selected stocks.
 * Calculates key metrics like highest/lowest prices, volatility, and correlation with NASDAQ.
