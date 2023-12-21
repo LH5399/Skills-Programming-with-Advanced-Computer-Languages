@@ -9,20 +9,32 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
+import os
 
 # IMPORT FUNCTION
-
 def import_csv():
+   
+    # Check for the default file in the current directory
+    default_file = 'big_five_stocks.csv'
+    if os.path.exists(default_file):
+        use_default = input(f"File '{default_file}' found. Do you want to use this file? (yes/no): ").strip().lower()
+        if use_default == 'yes':
+            path = default_file
+        else:
+            path = input("Please insert the path to the data file you want to input here: ")
+    else:
+        path = input("Please insert the path to the data file you want to input here: ")
+
+    path = path.replace("\\", "/").replace("\"", "")
+
     while True:
         try:
-            path = input("Please insert the path to the data file you want to input here: ")
-            path = path.replace("\\", "/").replace("\"", "")
             df = pd.read_csv(path)
             print("Thanks. Your data has been imported successfully.")
             df.rename(columns={'Unnamed: 0': 'Date'}, inplace=True)
             df['Date'] = pd.to_datetime(df['Date'])
 
+            # Mapping of full names to ticker symbols, excluding NASDAQ Index
             name_to_ticker = {
                 'Apple': 'AAPL',
                 'Microsoft': 'MSFT',
@@ -30,13 +42,14 @@ def import_csv():
                 'Google': 'GOOGL',
                 'Facebook': 'FB'
             }
-            return df, name_to_ticker  # Return both the DataFrame and the dictionary
+            return df, name_to_ticker
         except FileNotFoundError:
             print("Whoops. Something seems to have gone wrong.\n"
                   "Please make sure that your input path is correct.")
+            path = input("Please insert the path to the data file you want to input here: ").replace("\\", "/").replace("\"", "")
         except Exception as e:
             print(f"An error occurred: {e}")
-
+            path = input("Please insert the path to the data file you want to input here: ").replace("\\", "/").replace("\"", "")
 
 # FIRST FUNCTION
 
