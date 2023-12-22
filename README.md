@@ -11,6 +11,7 @@
 
   <p align="center">
     Stock Analysis and Portfolio Comparison Tool with 3 functions for the Big Five Dataset
+    Group ID: 2299
   </p>
 </div>
 
