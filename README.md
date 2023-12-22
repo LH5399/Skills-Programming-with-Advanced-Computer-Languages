@@ -64,7 +64,7 @@ The program consists of four main functions:
 
 ### 1. Data Import
 
-Allows users to import stock data from a CSV file.
+Allows users to import stock data from a CSV file. The file can be found in the repo (big_five_stocks). It can be also be downloaded via Kaggle: https://www.kaggle.com/datasets/abdullahmu/big-five-stocks?resource=download
 
 ### 2. Plot Stock Performance
 
